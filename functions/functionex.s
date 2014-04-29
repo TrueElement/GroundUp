@@ -6,7 +6,7 @@
 
 .section .text
 
-.globl _start:
+.globl _start
 _start:
 pushl $3 #push second arg to stack
 pushl $2 #push first arg to stack
